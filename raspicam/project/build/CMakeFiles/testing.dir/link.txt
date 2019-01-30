@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/testing.dir/test.cpp.o  -o testing  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -rdynamic /usr/local/lib/libwiringPi.so 

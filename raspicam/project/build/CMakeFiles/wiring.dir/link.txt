@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/wiring.dir/wiring.cpp.o  -o wiring  -L/usr/local/lib -Wl,-rpath,/usr/local/lib:/opt/vc/lib -rdynamic /usr/local/lib/libwiringPi.so /opt/vc/lib/libmmal_core.so /opt/vc/lib/libmmal_util.so /opt/vc/lib/libmmal.so -lraspicam 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/thread/main.cpp
+condition_variable
+-
+mutex
+-
+thread
+-
+iostream
+-
+queue
+-
+chrono
+-
+

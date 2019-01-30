@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/raspicam/project/button.cpp
+stdio.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+wiringPi.h
+-
+iostream
+-
+chrono
+-
+sys/timeb.h
+-
+
+/usr/local/include/wiringPi.h
+
