@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/serialTest.dir/serialTest.cpp.o  -o serialTest -Wl,-rpath,/usr/local/lib -rdynamic /usr/local/lib/libwiringPi.so 

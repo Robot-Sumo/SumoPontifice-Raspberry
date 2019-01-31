@@ -1,0 +1,2 @@
+#Se deben dar persmisos al puerto serial para utilizarlo
+sudo chmod 666 /dev/ttyAMA0 # por ejemplo

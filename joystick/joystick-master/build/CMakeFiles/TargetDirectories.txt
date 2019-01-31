@@ -1,0 +1,3 @@
+/home/pi/SumoPontifice-Raspberry/joystick/joystick-master/build/CMakeFiles/rebuild_cache.dir
+/home/pi/SumoPontifice-Raspberry/joystick/joystick-master/build/CMakeFiles/edit_cache.dir
+/home/pi/SumoPontifice-Raspberry/joystick/joystick-master/build/CMakeFiles/serialTest.dir
