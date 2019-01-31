@@ -2,6 +2,7 @@ cmake_minimum_required (VERSION 2.8)
 project (raspicam_test)
 set(raspicam_DIR /usr/local/lib/cmake/)
 #find_package(raspicam REQUIRED)
+#find_library(wiringPi_LIBS wiringPi wiringSerial)
 find_library(wiringPi_LIBS wiringPi wiringSerial)
 #find_package(Threads REQUIRED)
 
