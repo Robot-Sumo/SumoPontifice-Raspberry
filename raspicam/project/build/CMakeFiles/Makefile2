@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/raspicam/project
+CMAKE_SOURCE_DIR = /home/pi/SumoPontifice-Raspberry/raspicam/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/raspicam/project/build
+CMAKE_BINARY_DIR = /home/pi/SumoPontifice-Raspberry/raspicam/project/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/simpletest_raspicam.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/pi/raspicam/project/build
 CMakeFiles/simpletest_raspicam.dir/all:
 	$(MAKE) -f CMakeFiles/simpletest_raspicam.dir/build.make CMakeFiles/simpletest_raspicam.dir/depend
 	$(MAKE) -f CMakeFiles/simpletest_raspicam.dir/build.make CMakeFiles/simpletest_raspicam.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/raspicam/project/build/CMakeFiles --progress-num=5,6 "Built target simpletest_raspicam"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles --progress-num=5,6 "Built target simpletest_raspicam"
 .PHONY : CMakeFiles/simpletest_raspicam.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/simpletest_raspicam.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simpletest_raspicam.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/raspicam/project/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/simpletest_raspicam.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/raspicam/project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles 0
 .PHONY : CMakeFiles/simpletest_raspicam.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/simpletest_raspicam.dir/clean
 CMakeFiles/wiring.dir/all:
 	$(MAKE) -f CMakeFiles/wiring.dir/build.make CMakeFiles/wiring.dir/depend
 	$(MAKE) -f CMakeFiles/wiring.dir/build.make CMakeFiles/wiring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/raspicam/project/build/CMakeFiles --progress-num=7,8 "Built target wiring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles --progress-num=7,8 "Built target wiring"
 .PHONY : CMakeFiles/wiring.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/wiring.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wiring.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/raspicam/project/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wiring.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/raspicam/project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles 0
 .PHONY : CMakeFiles/wiring.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ clean: CMakeFiles/wiring.dir/clean
 CMakeFiles/button.dir/all:
 	$(MAKE) -f CMakeFiles/button.dir/build.make CMakeFiles/button.dir/depend
 	$(MAKE) -f CMakeFiles/button.dir/build.make CMakeFiles/button.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/raspicam/project/build/CMakeFiles --progress-num=1,2 "Built target button"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles --progress-num=1,2 "Built target button"
 .PHONY : CMakeFiles/button.dir/all
 
 # Include target in all.
@@ -150,9 +150,9 @@ all: CMakeFiles/button.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/button.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/raspicam/project/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/button.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/raspicam/project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles 0
 .PHONY : CMakeFiles/button.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ clean: CMakeFiles/button.dir/clean
 CMakeFiles/interruptTest.dir/all:
 	$(MAKE) -f CMakeFiles/interruptTest.dir/build.make CMakeFiles/interruptTest.dir/depend
 	$(MAKE) -f CMakeFiles/interruptTest.dir/build.make CMakeFiles/interruptTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/raspicam/project/build/CMakeFiles --progress-num=3,4 "Built target interruptTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles --progress-num=3,4 "Built target interruptTest"
 .PHONY : CMakeFiles/interruptTest.dir/all
 
 # Include target in all.
@@ -187,9 +187,9 @@ all: CMakeFiles/interruptTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/interruptTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/raspicam/project/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/interruptTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/raspicam/project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles 0
 .PHONY : CMakeFiles/interruptTest.dir/rule
 
 # Convenience name for target.

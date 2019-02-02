@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/raspicam/project/button.cpp
+/home/pi/SumoPontifice-Raspberry/raspicam/project/button.cpp
 stdio.h
 -
 string.h

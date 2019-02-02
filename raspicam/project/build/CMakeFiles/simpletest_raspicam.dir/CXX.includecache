@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/raspicam/project/simpletest_raspicam.cpp
+/home/pi/SumoPontifice-Raspberry/raspicam/project/simpletest_raspicam.cpp
 iostream
 -
 ctime
@@ -20,7 +20,7 @@ sstream
 sys/timeb.h
 -
 raspicam/raspicam.h
-/home/pi/raspicam/project/raspicam/raspicam.h
+/home/pi/SumoPontifice-Raspberry/raspicam/project/raspicam/raspicam.h
 condition_variable
 -
 mutex

@@ -238,7 +238,7 @@ int main ( int argc,char **argv ) {
 
     cout<<"Capturing...."<<endl;
     size_t i=0;
-    Camera.setFrameRate(80);
+    Camera.setFrameRate(90);
     cout << "framerate" << Camera.getFrameRate()<<endl;
     timer.start();
 

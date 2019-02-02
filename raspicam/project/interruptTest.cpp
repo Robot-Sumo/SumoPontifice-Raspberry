@@ -115,6 +115,7 @@ void processCommandLine ( int argc,char **argv,raspicam::RaspiCam &Camera ) {
     Camera.setWidth ( getParamVal ( "-w",argc,argv,1280 ) );
     Camera.setHeight ( getParamVal ( "-h",argc,argv,960 ) );
     Camera.setBrightness ( getParamVal ( "-br",argc,argv,50 ) );
+    Camera.setFrameRate ( getParamVal ( "-fr",argc,argv,30 ) );
 
     Camera.setSharpness ( getParamVal ( "-sh",argc,argv,0 ) );
     Camera.setContrast ( getParamVal ( "-co",argc,argv,0 ) );
@@ -260,8 +261,6 @@ int main ( int argc,char **argv ) {
     cout<<"Connected to camera ="<<Camera.getId() <<" bufs="<<Camera.getImageBufferSize( )<<endl;
     unsigned char *data=new unsigned char[  Camera.getImageBufferSize( )];
 
-    Camera.setFrameRate(80);
-    //Camera.setShutterSpeed(10000);
     cout<< Camera.getExposure() <<endl;
     cout << "frame rate" << Camera.getFrameRate()<<endl;
 
@@ -313,6 +312,7 @@ int main ( int argc,char **argv ) {
             
             time_image2 = timestamp.getNanoSecs();
             sumGrab2 = time_image2-time_image1+sumGrab2;
+            cout << i << " " << time_image2-time_image1 <<endl;
             i++;
         }
        

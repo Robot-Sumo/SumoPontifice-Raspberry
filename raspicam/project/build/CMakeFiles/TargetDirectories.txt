@@ -1,6 +1,6 @@
-/home/pi/raspicam/project/build/CMakeFiles/rebuild_cache.dir
-/home/pi/raspicam/project/build/CMakeFiles/edit_cache.dir
-/home/pi/raspicam/project/build/CMakeFiles/simpletest_raspicam.dir
-/home/pi/raspicam/project/build/CMakeFiles/wiring.dir
-/home/pi/raspicam/project/build/CMakeFiles/button.dir
-/home/pi/raspicam/project/build/CMakeFiles/interruptTest.dir
+/home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles/rebuild_cache.dir
+/home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles/edit_cache.dir
+/home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles/simpletest_raspicam.dir
+/home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles/wiring.dir
+/home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles/button.dir
+/home/pi/SumoPontifice-Raspberry/raspicam/project/build/CMakeFiles/interruptTest.dir
